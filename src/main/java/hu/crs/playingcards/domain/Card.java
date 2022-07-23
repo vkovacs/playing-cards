@@ -8,7 +8,7 @@ import static hu.crs.playingcards.domain.Suit.*;
 
 @Getter
 @RequiredArgsConstructor
-public enum Card {
+public enum Card implements PlayingCard{
     ACE_OF_SPADES(ACE, SPADES, "🂡"),
     TWO_OF_SPADES(TWO, SPADES, "🂢"),
     THREE_OF_SPADES(THREE, SPADES, "🂣"),

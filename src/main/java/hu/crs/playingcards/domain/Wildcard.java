@@ -6,8 +6,9 @@ import org.springframework.util.StringUtils;
 import java.util.Locale;
 
 @RequiredArgsConstructor
-public enum Suit {
-    CLUBS("♣"), DIAMONDS("♦"), HEARTS( 	"♥"), SPADES("♠");
+public enum Wildcard implements PlayingCard{
+    RED_JOKER("🃟"),
+    BLACK_JOKER("🃏");
 
     private final String unicodeImage;
 
