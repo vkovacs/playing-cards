@@ -1,6 +1,5 @@
 package hu.crs.playingcards;
 
-import hu.crs.playingcards.domain.Card;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -14,6 +13,6 @@ public class PlayingCardsApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		System.out.println(Card.ACE_OF_CLUBS.getUnicodeImage());
+
 	}
 }

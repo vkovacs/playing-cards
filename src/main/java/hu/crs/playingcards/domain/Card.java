@@ -65,8 +65,12 @@ public enum Card {
     QUEEN_OF_CLUBS(QUEEN, CLUBS, "🃝"),
     KING_OF_CLUBS(KING, CLUBS, "🃞");
 
-
     private final Rank rank;
     private final Suit suit;
     private final String unicodeImage;
+
+    @Override
+    public String toString() {
+        return String.format("%s of %s", rank, suit);
+    }
 }
