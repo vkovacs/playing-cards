@@ -8,6 +8,7 @@ import static org.hamcrest.Matchers.is;
 class CardTest {
     @Test
     void shouldShowStringRepresentationPass() {
+        //then
         assertThat(Card.ACE_OF_SPADES.toString(), is("Ace of Spades"));
     }
 }
